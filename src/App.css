@@ -1,0 +1,122 @@
+
+.post{
+     display: flex;
+     width: 1050px;
+     padding: 20px 25px;
+     align-items: center;
+     margin: 90px auto;
+     justify-content: center;
+}  
+
+.mb{
+     margin-bottom: 10px;
+}
+.des{
+     margin: 10px;
+}
+.footer{
+     position: fixed;
+     bottom: 0px;
+     width: 100vw;
+     height: 40px;
+     text-align: center;
+     background-color: rgba(221, 221, 221, 0.723);
+}
+.post-btn:hover {
+  background-color: #e65c00;
+}
+
+.large{
+     font-size:large;
+}
+.post-img{
+     width: 42%;
+}
+.post-img:hover{
+     transform: scale(1.20);
+}
+.inner-post{
+     margin: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;      
+}
+.post-btn{
+     background-color: black;
+     color: white;
+     font-size: 15px;
+     border: none;
+     padding: 7px 15px 10px 20px;
+     margin: 0px;
+     border-radius: 14px;
+}
+.Login,.Signup{
+     /* box-sizing: border-box; */
+     margin: 0px;
+     width: 100vw;
+     height: 100vh;
+     overflow: hidden;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: linear-gradient(to right, #f9f9f9, #eaeaea);
+}
+.signIn:hover,.signUp:hover{
+     transform: scale(1.10);
+}
+.input{
+     width: 100%;
+     padding: 10px;
+     border-radius: 14px;
+     border: 1px solid gray;
+     outline: none;
+}
+.loginbtn{
+     background: linear-gradient(135deg, #ff9966, #ff5e62);
+     color: white;
+     border: none;
+     font-size: medium;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+}
+.loginbtn:hover{
+     background: linear-gradient(135deg, #ff5e62, #ff9966); 
+     transform: scale(1.05);
+}
+.input:focus {
+  outline: none;
+  border: 2px solid #ff9966;
+  box-shadow: 0px 0px 8px rgba(255,153,102,0.5);
+}
+.mt{
+     margin-top: 10px;
+}
+.sign_up{
+     font-size:large;
+     color: #ab3a02;
+}
+.sign_up:hover{
+     color: #f07c42;
+}
+.signIn,.signUp{
+     text-align: center;
+     width: 300px;
+      background: linear-gradient(135deg, #ffecd2, #fcb69f);
+     box-shadow: 0px 4px 20px rgba(0,0,0,0.2);
+     padding: 42px 30px;
+     border-radius: 14px;
+}
+input{
+     display: block;
+     margin: 15px 0px;
+     color: black;
+}
+.post-margin{
+     margin: 10px 5px;
+}
+.big{
+     font-size: 42px;
+}
