@@ -16,7 +16,6 @@ const Navbar = () => {
 
   return (      
       <div>
-      
         {isSignIn ? (
           <div className='Navbar'>
             <Link to='/AllProducts' className='head'>Shopping Zone</Link>
@@ -26,23 +25,17 @@ const Navbar = () => {
               <Link to='/cart' className='links relative'>🛒 <span className='sup'>{itemsCount}</span></Link>
               <button className="links" onClick={handleLogout}>Sign Out</button>
             </div>
-            
           </div>
         ) : (
-          
             <div className="Navbar">
             <Link to='/' className='head'>Shopping Zone</Link>
-            
             <div className="link">
               <Link to='/login' className='links'>Sign In</Link>
               <Link to='/register' className='links'>Sign Up</Link>
             </div>
             </div>
-      
         )}
       </div>
-
   )
 }
-
 export default Navbar

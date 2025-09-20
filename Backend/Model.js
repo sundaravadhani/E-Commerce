@@ -7,5 +7,5 @@ const newModel=new mongoose.Schema({
           mobile:Number,
           address:String
 })
-const User=mongoose.model("Users",newModel,"usersDetails")
+const User=mongoose.model("Users",newModel,"usersDetail")
 export default User
